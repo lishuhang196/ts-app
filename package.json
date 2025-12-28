@@ -1,0 +1,16 @@
+{
+  "name": "vite-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsc -p ./tsconfig.json --watch",
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  }
+}
