@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES2023",
+    "target": "esnext",
     "useDefineForClassFields": true,
     "module": "nodenext",
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "outDir": "dist",
 

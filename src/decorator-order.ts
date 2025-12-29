@@ -1,3 +1,4 @@
+import 'reflect-metadata'
 // 装饰器执行顺序
 
 /**

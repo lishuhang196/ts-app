@@ -1,3 +1,5 @@
+import 'reflect-metadata'
+
 function foo() {
   console.log('foo(): evaluated');
   return function (_target: any) {
@@ -18,6 +20,8 @@ class Person {
   constructor() {}
 }
 
-new Person();
+const p = new Person();
+
+console.log(Object.getOwnPropertySymbols(p))
 
 export {}
